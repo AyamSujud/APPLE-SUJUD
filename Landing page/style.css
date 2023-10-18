@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main .mainheader{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+
+.main .mainheader .title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main .mainheader .title h1{
+
+}
+.main .mainheader .title h3{
+
+}
+.main .mainheader .title p{
+
+}
+.main .mainheader .gambar img{
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.containerContent{
+    background-image: url(1328590.jpeg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.containerContent .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.containerContent .link{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerContent .link a{
+   color: blue;
+   text-decoration: none;
+   padding: 25px;
+}
+
+.containerContent .text h3{
+    font-weight: 100;
+}
+
+
+.navbar{
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 22px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.nav ul{
+    margin: 0 -8px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul li a .logo-nav-img{
+    height: 17px;
+}
+
+.nav ul li a .search-nav-img{
+    height: 15px;
+}
+
+.nav ul li a .bag-nav-img{
+    height: 16px;
+}
+
